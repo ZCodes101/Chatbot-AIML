@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+    <category>
+        <pattern>*</pattern>
+       
+        <template><delay>1</delay> Type start to view possible Careers for Computer Science graduates.</template>
+    </category>
+
+
+  
+</aiml>

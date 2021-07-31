@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>itpm</pattern>
+    <template>
+        <b>IT Project Manager</b>
+        <!--- Source for text https://www.thebalancecareers.com/top-jobs-for-computer-science-majors-2059634 -->
+
+        <delay>3</delay>
+    Project managers in the IT sector coordinate the efforts of a team of programmers/developers and analysts to complete projects.<delay>3</delay> 
+    They also analyze technical problems for their company or a client organization, proposing solutions and tips to enhance productivity.<delay>3</delay>
+    <link>
+        <text>Click Here To Learn More</text>
+        <url>https://www.thebalancecareers.com/what-a-project-manager-does-all-day-3963577</url>
+    </link>
+    
+    <button>
+        <text>View Other Career Options</text>
+        <postback>Top 5</postback>
+    </button>
+        <button>
+        <text>Help Me Decide</text>
+        <postback>undecided</postback>
+    </button>
+    
+    </template>
+</category>
+</aiml>

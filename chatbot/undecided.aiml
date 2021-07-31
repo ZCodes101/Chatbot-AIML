@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	 <category>
+        <pattern>undecided</pattern>
+        <template>We Will Suggest a Career Path Based On Your Reponse
+        <delay>1</delay>
+        Do you enjoy programming?
+            <reply>
+                <text>yes</text>
+              <postback>software qa</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>database qa</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>software qa</pattern>
+        <template> Do you prefer building software and large scale web apps?  
+            <reply>
+                <text>yes</text>
+                <postback>software developer</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>webdev qa</postback>
+            </reply>
+        </template>
+    </category>
+    
+    
+    
+        <category>
+        <pattern>webdev qa</pattern>
+        <template>        
+        <delay>2</delay> Maybe websites are your thing!<delay>2</delay>
+ Do you enjoy building beautiful and interact websites?
+            <reply>
+                <text>yes</text>
+                <postback>webdev</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>database qa</postback>
+            </reply>
+        </template>
+    </category>
+       
+    
+    
+    
+    
+    
+    <category>
+        <pattern>database qa</pattern>
+        <template> Do you prefer working with databses?  
+            <reply>
+                <text>yes</text>
+                <postback>databaseadmin</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>infosec qa</postback>
+            </reply>
+        </template>
+    </category>
+    
+    
+    <category>
+        <pattern>infosec qa</pattern>
+        <template>  <delay>2</delay>
+        Okay<delay>1</delay> I understand, that's not for everyone<delay>2</delay>
+        Planning and carrying out security measures to protect an organization's computer networks and systems from hackers.
+        <delay>2 </delay>
+        Does this interest you?
+            <reply>
+                <text>yes</text>
+                <postback>infosec</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>itpm qa</postback>
+            </reply>
+        </template>
+    </category>
+    
+        <category>
+        <pattern>itpm qa</pattern>
+        <template> Do you preffer planning, organizing, and budgeting and have strong leadership skills?
+        <delay>2 </delay>
+            <reply>
+                <text>yes</text>
+                <postback>itpm</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>no suggestion</postback>
+            </reply>
+        </template>
+    </category>
+    
+
+        
+    <category>
+        <pattern>no suggestion</pattern>
+        <template> Sorry, I could not help you. Feel free to try again by typing "start" Good Bye.
+        
+        </template>
+    </category> 
+       
+   
+</aiml>

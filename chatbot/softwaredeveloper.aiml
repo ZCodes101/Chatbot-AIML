@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>software developer</pattern>
+    <template>
+     <b>Software Developer</b>
+
+<!--- Source for text https://www.thebalancecareers.com/top-jobs-for-computer-science-majors-2059634 -->
+        <delay>3</delay>
+    Software developers create software programs that allow users to perform 
+    specific tasks on various devices <delay>4</delay>
+    such as computers <delay>1</delay>
+    or mobile devices.
+    <delay>3</delay>
+    They are responsible for the entire development, testing, 
+    and maintenance of software.
+    <delay>4</delay>
+    <link>
+        <text>Click Here To Learn More</text>
+        <url>https://www.thebalancecareers.com/software-developer-job-description-salary-and-skills-2061833</url>
+    </link>
+    
+    <button>
+        <text>View Other Career Options</text>
+        <postback>Top 5</postback>
+    </button>
+        <button>
+        <text>Help Me Decide</text>
+        <postback>undecided</postback>
+    </button>
+    
+    </template>
+</category>
+
+</aiml>

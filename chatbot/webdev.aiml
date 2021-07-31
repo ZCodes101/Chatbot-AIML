@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>webdev</pattern>
+    <template>
+        <b>Web Developer</b>
+        <!--- Source for text https://www.thebalancecareers.com/top-jobs-for-computer-science-majors-2059634 -->
+
+        <delay>3</delay>
+    Web developers assess the needs of users for information-based resources. <delay>3</delay>
+    They create the technical structure for websites and make sure that web pages are accessible 
+    and easily downloadable through a variety of browsers and interfaces.
+    <delay>3</delay>
+
+Web developers structure sites to maximize the number of page views and visitors through search engine optimization. <delay>2</delay>
+They must have the communication skills and creativity needed to ensure the website meets its users' needs.<delay>3</delay>
+    <link>
+        <text>Click Here To Learn More</text>
+        <url>https://www.thebalancecareers.com/web-developer-job-description-salary-and-skills-2061841</url>
+    </link>
+    
+    <button>
+        <text>View Other Career Options</text>
+        <postback>Top 5</postback>
+    </button>
+        <button>
+        <text>Help Me Decide</text>
+        <postback>undecided</postback>
+    </button>
+    
+    </template>
+</category>
+</aiml>

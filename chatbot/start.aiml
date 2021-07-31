@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>start</pattern>
+    <template>Welcome to the I.T Career Bot. 
+    Select an option below to help guide you through the careers you may get
+    with a degree in Computer Science.
+
+<button>
+    <text>5 Careers For CS Degree</text>
+    <postback>Top 5</postback>
+</button>
+
+<button>
+    <text>Help Me Decide</text>
+    <postback>undecided</postback>
+</button>
+
+</template>
+</category>
+
+
+<category>
+    <pattern>Top 5</pattern>
+    <template>5 Careers For Computer Science Graduates
+    <button>
+        <text>Software Developer</text>
+        <postback>software developer</postback>
+    </button>
+    <button>
+        <text>Database Administrator</text>
+        <postback>databaseadmin</postback>
+    </button>
+    <button>
+        <text>Information Security Analyst</text>
+        <postback>infosec</postback>
+    </button>
+    <button>
+        <text>Web Developer</text>
+        <postback>webdev</postback>
+    </button>
+    <button>
+        <text>IT Project Manager</text>
+        <postback>itpm</postback>
+    </button>
+    </template>
+</category>
+
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+</aiml>

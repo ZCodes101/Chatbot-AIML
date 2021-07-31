@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>databaseadmin</pattern>
+    <template>
+        <b>Database Administrator</b>
+        <!--- Source for text https://www.thebalancecareers.com/top-jobs-for-computer-science-majors-2059634 -->
+
+        <delay>3</delay>
+    Database administrators analyze and evaluate the data needs of users. <delay>3</delay>
+    They develop and improve the data resources used to store and retrieve critical information.<delay>3</delay>
+    
+    They need the problem-solving skills of the computer science major to correct any malfunctions in databases 
+    and to modify systems in line with the evolving needs of users.<delay>3</delay>
+    <link>
+        <text>Click Here To Learn More</text>
+        <url>https://www.thebalancecareers.com/database-administrator-job-description-salary-and-skills-2061775</url>
+    </link>
+    
+    <button>
+        <text>View Other Career Options</text>
+        <postback>Top 5</postback>
+    </button>
+        <button>
+        <text>Help Me Decide</text>
+        <postback>undecided</postback>
+    </button>
+    
+    </template>
+</category>
+</aiml>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>infosec</pattern>
+    <template>
+        <b>Information Security Analysts</b>
+        <!--- Source for text https://www.thebalancecareers.com/top-jobs-for-computer-science-majors-2059634 -->
+
+        <delay>3</delay>
+    Information security analysts create systems to protect information networks and websites from cyberattacks 
+    <delay>2</delay>
+    and other security breaches. 
+    <delay>3</delay>
+    Their responsibilities also include researching trends in data security to anticipate problems 
+    and install systems to prevent issues before they occur.<delay>3</delay>
+    <link>
+        <text>Click Here To Learn More</text>
+        <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm#tab-2</url>
+    </link>
+    
+    <button>
+        <text>View Other Career Options</text>
+        <postback>Top 5</postback>
+    </button>
+        <button>
+        <text>Help Me Decide</text>
+        <postback>undecided</postback>
+    </button>
+    
+    </template>
+</category>
+</aiml>
